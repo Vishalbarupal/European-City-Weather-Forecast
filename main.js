@@ -80,5 +80,5 @@ function getWeatherImage(weather) {
     };
 
     const lowerCaseWeather = weather.toLowerCase();
-    return weatherImages[lowerCaseWeather] || 'images/default.png';
+    return weatherImages[lowerCaseWeather] || 'default.png';
 }
