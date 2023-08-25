@@ -69,14 +69,14 @@ function getWeatherImage(weather) {
     // This is a simplified mapping of weather conditions to images
     // Make sure the image paths are correct based on your file structure
     const weatherImages = {
-        clear: './images/clear.png',
-        pcloudy: './images/pcloudy.png',
-        mcloudy: './images/mcloudy.png',
-        cloudy: './images/cloudy.png',
-        lightrain: './images/lightrain.png',
-        rain: './images/rain.png',
-        lightsnow: './images/lightsnow.png',
-        snow: './images/snow.png'
+        clear: 'clear.png',
+        pcloudy: 'pcloudy.png',
+        mcloudy: 'mcloudy.png',
+        cloudy: 'cloudy.png',
+        lightrain: 'lightrain.png',
+        rain: 'rain.png',
+        lightsnow: 'lightsnow.png',
+        snow: 'now.png'
     };
 
     const lowerCaseWeather = weather.toLowerCase();
